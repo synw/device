@@ -1,0 +1,13 @@
+name: device
+author: synw <ansterj@gmail.com>
+description: Data model for a device
+homepage: https://github.com/synw/device
+version: 0.1.0
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+  meta: ^1.1.6
+  geopoint: ^0.6.1
+  extra_pedantic: ^1.1.1+1

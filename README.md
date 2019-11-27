@@ -1,5 +1,7 @@
 # Device
 
+[![Build Status](https://travis-ci.org/synw/device.svg?branch=master)](https://travis-ci.org/synw/device)
+
 Data structure for a device.
 
    ```dart

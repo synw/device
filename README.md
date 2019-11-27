@@ -3,17 +3,22 @@
 Data structure for a device.
 
    ```dart
-   int id;
-   String uniqueId;
-   int groupId;
-   String name;
-   GeoPoint position;
-   double batteryLevel;
-   bool isDisabled;
-   bool isActive;
-   Duration keepAlive = const Duration(minutes: 1);
-   Duration sleepingTimeout = const Duration(minutes: 10);
-   Map<String, dynamic> properties = const <String, dynamic>{};
+   // data properties
+   int id,
+   String uniqueId,
+   int groupId,
+   String name,
+   GeoPoint position,
+   double batteryLevel,
+   GeoDataFrame df,
+   Map<String, dynamic> properties,
+   // state properties
+   bool isVisible = true,
+   bool isDisabled = false,
+   Duration keepAlive = const Duration(minutes: 1),
+   Duration sleepingTimeout = const Duration(minutes: 10),
+   bool isFollowed = false,
+   bool isTraced = false
    ```
 
 ## Position
@@ -22,7 +27,7 @@ The device position is a [GeoPoint](https://github.com/synw/geopoint)
 
    ```dart
    final GeoPoint lastPosition = device.position;
-   final DateTime lastPositionDate = device.lastPosition;
+   final DateTime lastPositionDate = device.lastPositionDate;
    ```
   
 ## Speed

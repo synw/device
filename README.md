@@ -1,6 +1,6 @@
 # Device
 
-[![Build Status](https://travis-ci.org/synw/device.svg?branch=master)](https://travis-ci.org/synw/device)
+[![pub package](https://img.shields.io/pub/v/device.svg)](https://pub.dartlang.org/packages/device) [![Build Status](https://travis-ci.org/synw/device.svg?branch=master)](https://travis-ci.org/synw/device)
 
 Data structure for a device.
 

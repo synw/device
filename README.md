@@ -36,10 +36,7 @@ The device position is a [GeoPoint](https://github.com/synw/geopoint)
   
    ```dart
    final double speed = device.speed;
-   /// The speed of the device in meters per second
-
-   final speedKmh = device.speedKmh;
-   /// The speed of the device in kilometers per hour
+   /// The speed of the device
    ```
 
 ## Network status

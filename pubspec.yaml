@@ -1,8 +1,7 @@
 name: device
-author: synw <ansterj@gmail.com>
 description: Data model for a device with various fields and geographical positions data
 homepage: https://github.com/synw/device
-version: 0.1.0
+version: 0.1.1
 
 environment:
   sdk: ">=2.4.0 <3.0.0"
@@ -12,4 +11,4 @@ dependencies:
   pedantic: ^1.7.0
   extra_pedantic: ^1.1.1+3
   geopoint: ^0.7.0
-  geodf: ^0.1.0
+  geodf: ^0.1.1

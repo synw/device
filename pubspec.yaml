@@ -1,7 +1,7 @@
 name: device
 description: Data model for a device with various fields and geographical positions data
 homepage: https://github.com/synw/device
-version: 0.1.1
+version: 0.2.0
 
 environment:
   sdk: ">=2.4.0 <3.0.0"
